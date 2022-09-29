@@ -1,0 +1,14 @@
+.countries{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+.country{
+    border: 2px solid rebeccapurple;
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 20px;
+}
+.country img{
+    width: 200px;
+}
